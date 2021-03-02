@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body id="body">
+
+    <div class="container">
+        <div class="row m-5 p-5 justify-content-center" id="row">
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item">
+                            <button class="page-link" id="previous" onclick="getDetails(1)">
+                                Previous
+                            </button>
+                        </li>
+                        <li class="page-item">
+                            <button class="page-link" onclick="getDetails(1)">1</button>
+                        </li>
+                        <li class="page-item">
+                            <button class="page-link" onclick="getDetails(2)">2</button>
+                        </li>
+                        <li class="page-item">
+                            <button class="page-link" id="next" onclick="getDetails(2)">Next
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
